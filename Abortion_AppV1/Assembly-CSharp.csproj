@@ -199,6 +199,7 @@
      <Compile Include="Assets\NGUI\Scripts\UI\UITexture.cs" />
      <Compile Include="Assets\NGUI\Scripts\UI\UITooltip.cs" />
      <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
+     <Compile Include="Assets\Scripts\Anim_Manager.cs" />
      <Compile Include="Assets\Scripts\BackButtonScript.cs" />
      <Compile Include="Assets\Scripts\FwdButtonScript.cs" />
      <Compile Include="Assets\Scripts\TextManagerScript.cs" />

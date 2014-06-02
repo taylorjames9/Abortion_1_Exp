@@ -24,12 +24,11 @@ public class BackButtonScript : MonoBehaviour {
 		}*/
 
 		void OnMouseUp(){
-
-
+		
 				if (textManagerScript.textPlace > 0) {
 						textManagerScript.TextPlace = textManagerScript.textPlace - 1;
 						print ("We inside the forward button");
 				} else
-						textManagerScript.TextPlace = textManagerScript.textList.Count;
+						textManagerScript.TextPlace = textManagerScript.textList.Count -1 ;
 		}
 }

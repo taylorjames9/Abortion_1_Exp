@@ -1,11 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../Ballroom_Syringe_Outer/Syringe_Ballroom/Assets/Scripts/TapSetPosition.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../Ballroom_Syringe_Outer/Syringe_Ballroom/Assets/Scripts/MainCharacterScript.cs">
     <Files>
-      <File FileName="Assets/Scripts/TextManagerScript.cs" Line="36" Column="3" />
-      <File FileName="Assets/Scripts/FwdButtonScript.cs" Line="23" Column="44" />
-      <File FileName="Assets/Scripts/BackButtonScript.cs" Line="29" Column="64" />
-      <File FileName="../../Ballroom_Syringe_Outer/Syringe_Ballroom/Assets/Scripts/TapSetPosition.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/TextManagerScript.cs" Line="45" Column="329" />
+      <File FileName="Assets/Scripts/FwdButtonScript.cs" Line="22" Column="75" />
+      <File FileName="Assets/Scripts/BackButtonScript.cs" Line="26" Column="20" />
+      <File FileName="../../Ballroom_Syringe_Outer/Syringe_Ballroom/Assets/Scripts/TapSetPosition.cs" Line="23" Column="3" />
+      <File FileName="../../Ballroom_Syringe_Outer/Syringe_Ballroom/Assets/Scripts/MainCharacterScript.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

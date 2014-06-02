@@ -19,7 +19,7 @@ public class FwdButtonScript : MonoBehaviour {
 
 		void OnMouseUp() { 
 		
-				if (textManagerScript_2.textPlace < textManagerScript_2.textList.Count) {
+				if (textManagerScript_2.textPlace < textManagerScript_2.textList.Count -1) {
 						textManagerScript_2.TextPlace = textManagerScript_2.textPlace + 1;
 						print ("We inside the forward button");
 				} else
