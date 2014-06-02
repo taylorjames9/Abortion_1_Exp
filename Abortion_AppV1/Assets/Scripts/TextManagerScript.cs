@@ -8,16 +8,34 @@ public class TextManagerScript : MonoBehaviour {
 
 		public List<string> textList = new List<string>();
 
-		public static int textPlace;
 
+		//enum TextSizeEnum {Title, Chapter, Reg};
 
+		public int textPlace;
 
+		public int TextPlace { 
+				get { 
+						return textPlace; 
+					} 
 
+				set {  
+						textPlace = value;
+				
+						if(textPlace == 0)
+								my3DTextObject.fontSize = 57;
+						else if(textPlace == 1 || textPlace == 4 || textPlace == 7)
+								my3DTextObject.fontSize = 45;
+						else
+								my3DTextObject.fontSize = 32;
+
+						my3DTextObject.text = textList[textPlace];
+						print ("TextPlace =" + TextPlace);
+				}
+		}
 
 
 	// Use this for initialization
 	void Start () {
-	
 				textList.Add ("One Abortion.");
 				textList.Add ("Chapter 1: The Test");
 				textList.Add ("Lorem ipsum dolor sit amet, posuere turpis, at nam, viverra morbi imperdiet condimentum praesent eget donec, viverra consequat");
@@ -28,9 +46,6 @@ public class TextManagerScript : MonoBehaviour {
 				textList.Add ("Chapter 3: The Parents");
 				textList.Add ("Id qui risus. Ac non et eget id faucibus, dapibus tincidunt. Sed tempor faucibus condimentum,");
 				textList.Add ("Sed nec, magna lorem consectetuer justo quis metus, neque eu suspendisse. Suscipit elit massa nec, cursus imperdiet aliquet");
-				//textList.Add ("Chapter 2: The Parents");
-
-
 	}
 	
 	// Update is called once per frame
