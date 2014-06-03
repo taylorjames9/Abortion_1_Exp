@@ -4,7 +4,8 @@ using System.Collections.Generic;
 
 public class TextManagerScript : MonoBehaviour {
 
-		public TextMesh my3DTextObject;
+	//public TextMesh my3DTextObject;
+	public UILabel my3DTextObject;
 
 		public List<string> textList = new List<string>();
 
@@ -36,6 +37,9 @@ public class TextManagerScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+
+		//UILabel my3DTextObject = GetComponent<UILabel>();
+
 				textList.Add ("One Abortion.");
 				textList.Add ("Chapter 1: The Test");
 				textList.Add ("Lorem ipsum dolor sit amet, \n posuere turpis, at nam, \n viverra morbi imperdiet condimentum \npraesent eget donec, viverra \nconsequat");
