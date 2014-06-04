@@ -23,11 +23,11 @@ public class TextManagerScript : MonoBehaviour {
 						textPlace = value;
 				
 						if(textPlace == 0)
-							my3DTextObject.fontSize = 40;
+				my3DTextObject.fontSize = 70;
 						else if(textPlace == 1 || textPlace == 4 || textPlace == 7 || textPlace == 10 || textPlace == 13)
-							my3DTextObject.fontSize = 30;
+				my3DTextObject.fontSize = 50;
 						else
-							my3DTextObject.fontSize = 20;
+				my3DTextObject.fontSize = 35;
 
 						my3DTextObject.text = textList[textPlace];
 						print ("TextPlace =" + TextPlace);
@@ -38,9 +38,9 @@ public class TextManagerScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-				textList.Add ("One Abortion");
+				textList.Add ("One \nAbortion \nAgo");
 				textList.Add ("Chapter 1: The Test");
-				textList.Add ("Lorem ipsum dolor sit amet, posuere turpis, at nam,  viverra morbi imperdiet condimentum praesent eget donec, viverra consequat");
+				textList.Add ("Lorem ipsum dolor sit amet, posuere turpis, at nam, viverra morbi imperdiet condimentum praesent eget donec, viverra consequat");
 				textList.Add ("Nonummy placerat ut sed ipsum dignissim. Dui imperdiet, at in nullam suspendisse, wisi consequat convallis wisi aliquam, nec et elementum in feugiat vel tempor. Sodales enim ultricies donec.");
 				textList.Add ("Chapter 2: The Judge");
 				textList.Add ("Id qui risus. Ac non et eget id faucibus, dapibus tincidunt. Sed tempor faucibus condimentum,");
